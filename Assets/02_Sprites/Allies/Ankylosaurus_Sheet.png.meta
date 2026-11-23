@@ -1,28 +1,7 @@
 fileFormatVersion: 2
-guid: d83c7ede590024345b81dadc92b1ffe4
+guid: 7ba736d2c1164eab84b6d96bc1e7f48d
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 1924001373254999748
-    second: Egg_Peach_0
-  - first:
-      213: 6984879965793758493
-    second: Egg_Peach_1
-  - first:
-      213: 4996543508839954858
-    second: Egg_Peach_2
-  - first:
-      213: -8763727000886194088
-    second: Egg_Peach_3
-  - first:
-      213: -1243975397517150366
-    second: Egg_Peach_4
-  - first:
-      213: -1176624354153310548
-    second: Egg_Peach_5
-  - first:
-      213: 1023616520276075326
-    second: Egg_Peach_6
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -64,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1500
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -144,155 +123,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Egg_Peach_0
+      name: Ankylosaurus_Idle_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 724
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8b97f4de9f42f1a99a3882940c74e7
+      internalID: 21300001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ankylosaurus_Idle_02
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 724
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ccd9187bce4edd82279cf50e72ad3a
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ankylosaurus_Idle_03
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 724
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960a5e91545241e7b1730a8aab43e71c
+      internalID: 21300003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ankylosaurus_Idle_04
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 724
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e417ceb29f1c4b108671e3281b612257
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ankylosaurus_Attack_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b703f9c5600e4e3aa716810a7bbc8ea4
+      internalID: 21300005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ankylosaurus_Attack_02
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 362
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be689ecefc694dd8b6125d46e0e71bef
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ankylosaurus_Attack_03
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 362
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238b687fcbc44c42b924b12223deaa20
+      internalID: 21300007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ankylosaurus_Attack_04
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 362
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3211dc4baea446edbab09a4af605dae9
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ankylosaurus_Move_01
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1245
-        height: 1254
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4ce5a302e0d63ba10800000000000000
-      internalID: 1924001373254999748
+      spriteID: e1c5b0f0757d464299d3db5db8ab4c58
+      internalID: 21300009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Egg_Peach_1
+      name: Ankylosaurus_Move_02
       rect:
         serializedVersion: 2
-        x: 741
-        y: 1080
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 362
+        y: 0
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1d21e742574fe060800000000000000
-      internalID: 6984879965793758493
+      spriteID: 5ad543f3bf144e27a32b3c3923e5303f
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Egg_Peach_2
+      name: Ankylosaurus_Move_03
       rect:
         serializedVersion: 2
-        x: 772
-        y: 1068
-        width: 15
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 724
+        y: 0
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa9703539d9475540800000000000000
-      internalID: 4996543508839954858
+      spriteID: d2d71cfbb8624ee8886fee504e8f2070
+      internalID: 21300011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Egg_Peach_3
+      name: Ankylosaurus_Move_04
       rect:
         serializedVersion: 2
-        x: 965
-        y: 890
-        width: 12
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1086
+        y: 0
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 850dda399bcf06680800000000000000
-      internalID: -8763727000886194088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Egg_Peach_4
-      rect:
-        serializedVersion: 2
-        x: 1091
-        y: 558
-        width: 21
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2673aa187f28cbee0800000000000000
-      internalID: -1243975397517150366
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Egg_Peach_5
-      rect:
-        serializedVersion: 2
-        x: 434
-        y: 130
-        width: 19
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ca65e98426acbafe0800000000000000
-      internalID: -1176624354153310548
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Egg_Peach_6
-      rect:
-        serializedVersion: 2
-        x: 834
-        y: 136
-        width: 23
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e33e6454dcd943e00800000000000000
-      internalID: 1023616520276075326
+      spriteID: bd43437c643a4d05b81cba1318146ed7
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -301,7 +390,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -311,13 +400,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Egg_Peach_0: 1924001373254999748
-      Egg_Peach_1: 6984879965793758493
-      Egg_Peach_2: 4996543508839954858
-      Egg_Peach_3: -8763727000886194088
-      Egg_Peach_4: -1243975397517150366
-      Egg_Peach_5: -1176624354153310548
-      Egg_Peach_6: 1023616520276075326
+      Ankylosaurus_Attack_01: 21300005
+      Ankylosaurus_Attack_02: 21300006
+      Ankylosaurus_Attack_03: 21300007
+      Ankylosaurus_Attack_04: 21300008
+      Ankylosaurus_Idle_01: 21300001
+      Ankylosaurus_Idle_02: 21300002
+      Ankylosaurus_Idle_03: 21300003
+      Ankylosaurus_Idle_04: 21300004
+      Ankylosaurus_Move_01: 21300009
+      Ankylosaurus_Move_02: 21300010
+      Ankylosaurus_Move_03: 21300011
+      Ankylosaurus_Move_04: 21300012
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

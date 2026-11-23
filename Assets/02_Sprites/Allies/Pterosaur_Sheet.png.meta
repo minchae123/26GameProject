@@ -1,40 +1,7 @@
 fileFormatVersion: 2
-guid: 692afdf02259949fe9baf237fc17c682
+guid: 0f23d877ad0746c8934f3ca7cc212474
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -6639055501786988469
-    second: Egg_Blue_0
-  - first:
-      213: -973817434541224619
-    second: Egg_Blue_1
-  - first:
-      213: 6872406695534855870
-    second: Egg_Blue_2
-  - first:
-      213: 8527869508886073694
-    second: Egg_Blue_3
-  - first:
-      213: 8602918787678288188
-    second: Egg_Blue_4
-  - first:
-      213: 3805558136213777081
-    second: Egg_Blue_5
-  - first:
-      213: 3170349006417376091
-    second: Egg_Blue_6
-  - first:
-      213: -1819992469446847054
-    second: Egg_Blue_7
-  - first:
-      213: 8286288218850153252
-    second: Egg_Blue_8
-  - first:
-      213: -5145776734827640502
-    second: Egg_Blue_9
-  - first:
-      213: 1792970239027798631
-    second: Egg_Blue_10
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -67,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -76,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1500
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -156,243 +123,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Egg_Blue_0
+      name: Pterosaur_Idle_01
       rect:
         serializedVersion: 2
         x: 0
-        y: 29
-        width: 1122
-        height: 1107
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 724
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4042e342365dd3a0800000000000000
-      internalID: -6639055501786988469
+      spriteID: 23141e72e93c4a3ca6bacb2ad1c80086
+      internalID: 21300001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Egg_Blue_1
+      name: Pterosaur_Idle_02
       rect:
         serializedVersion: 2
-        x: 522
-        y: 1134
-        width: 76
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 362
+        y: 724
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55d861ae33e4c72f0800000000000000
-      internalID: -973817434541224619
+      spriteID: 9abeac6075a945c2bb8011b91d521d3d
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Egg_Blue_2
+      name: Pterosaur_Idle_03
       rect:
         serializedVersion: 2
-        x: 315
-        y: 1070
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 724
+        y: 724
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb60f5f5a71bf5f50800000000000000
-      internalID: 6872406695534855870
+      spriteID: abcceae0488a4eb0af53732934d66ed9
+      internalID: 21300003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Egg_Blue_3
+      name: Pterosaur_Idle_04
       rect:
         serializedVersion: 2
-        x: 1093
-        y: 532
-        width: 19
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1086
+        y: 724
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e511a00c224195670800000000000000
-      internalID: 8527869508886073694
+      spriteID: 7678db47f55640d1982853fcd176a17c
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Egg_Blue_4
+      name: Pterosaur_Attack_01
       rect:
         serializedVersion: 2
-        x: 131
-        y: 513
-        width: 13
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 362
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c393913ae05b36770800000000000000
-      internalID: 8602918787678288188
+      spriteID: 690c748942d54848abb8772440bd55f0
+      internalID: 21300005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Egg_Blue_5
+      name: Pterosaur_Attack_02
       rect:
         serializedVersion: 2
-        x: 401
-        y: 101
-        width: 18
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 362
+        y: 362
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9baae1156fe00d430800000000000000
-      internalID: 3805558136213777081
+      spriteID: fd25c20f90f047a8a80102475ad300a2
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Egg_Blue_6
+      name: Pterosaur_Attack_03
       rect:
         serializedVersion: 2
-        x: 866
-        y: 117
-        width: 17
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 724
+        y: 362
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b533585cf975ffb20800000000000000
-      internalID: 3170349006417376091
+      spriteID: 5a126b5d0e6d44cda0e3d3c052cd9aa7
+      internalID: 21300007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Egg_Blue_7
+      name: Pterosaur_Attack_04
       rect:
         serializedVersion: 2
-        x: 297
-        y: 97
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1086
+        y: 362
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b51cb4ed761eb6e0800000000000000
-      internalID: -1819992469446847054
+      spriteID: 41784819874745fa82e67880411d86a0
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Egg_Blue_8
+      name: Pterosaur_Move_01
       rect:
         serializedVersion: 2
-        x: 502
-        y: 103
-        width: 10
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 423511f7b3fcef270800000000000000
-      internalID: 8286288218850153252
+      spriteID: 8eb82c85df80492e8cf1d6b93e178487
+      internalID: 21300009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Egg_Blue_9
+      name: Pterosaur_Move_02
       rect:
         serializedVersion: 2
-        x: 522
-        y: 63
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 362
+        y: 0
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a49012bb2578698b0800000000000000
-      internalID: -5145776734827640502
+      spriteID: f23268dd928c45f4aaa58e4f6bc15695
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Egg_Blue_10
+      name: Pterosaur_Move_03
       rect:
         serializedVersion: 2
-        x: 731
-        y: 57
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 724
+        y: 0
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 762691ecee8e1e810800000000000000
-      internalID: 1792970239027798631
+      spriteID: 9e95768fbb9f482f96677b27a2cc136e
+      internalID: 21300011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pterosaur_Move_04
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 362
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff4624b0ff84a40b21112bc9f038d10
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -401,7 +390,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -411,17 +400,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Egg_Blue_0: -6639055501786988469
-      Egg_Blue_1: -973817434541224619
-      Egg_Blue_10: 1792970239027798631
-      Egg_Blue_2: 6872406695534855870
-      Egg_Blue_3: 8527869508886073694
-      Egg_Blue_4: 8602918787678288188
-      Egg_Blue_5: 3805558136213777081
-      Egg_Blue_6: 3170349006417376091
-      Egg_Blue_7: -1819992469446847054
-      Egg_Blue_8: 8286288218850153252
-      Egg_Blue_9: -5145776734827640502
+      Pterosaur_Attack_01: 21300005
+      Pterosaur_Attack_02: 21300006
+      Pterosaur_Attack_03: 21300007
+      Pterosaur_Attack_04: 21300008
+      Pterosaur_Idle_01: 21300001
+      Pterosaur_Idle_02: 21300002
+      Pterosaur_Idle_03: 21300003
+      Pterosaur_Idle_04: 21300004
+      Pterosaur_Move_01: 21300009
+      Pterosaur_Move_02: 21300010
+      Pterosaur_Move_03: 21300011
+      Pterosaur_Move_04: 21300012
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
